@@ -31,7 +31,7 @@ To-Do app
 Features 
  - Animation builder when new task is created on simultaneous device
  - Using firestore realtime services
- - Include simple notification (for Android only)
+ - Include Notification using FCM (for Android only)
  - Popup notification when using different devices 
     for making changes and delete To-Do items
  - Simple Profile page
