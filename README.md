@@ -11,16 +11,17 @@
 
 ## Demo
 
-- [Watch app demo on YouTube](https://youtu.be/kiAgfeQr6EQ)
-- [View Demo on Flutter Web](https://etiqa-todo-list.web.app/#/list)
-- [Download APK](https://api.codemagic.io/artifacts/e1c01c6b-c234-4e2b-b082-213f8c237a70/3149b754-ad6b-4b63-a857-e4f38683660b/app-release.apk)
+- [Watch app demo on YouTube](https://youtu.be/pkyvh2KHcHk)
+- [View Demo on Flutter Web](https://emirfikri.github.io/)
+- [Download APK](https://1drv.ms/u/s!Atd0aLPih2vGgP5b3ibtiwZuYgk1iA?e=cvc2Ea)
 
 
 ## Key Features
 Auth
  - Login user
  - Register as new user
-
+ - Using FirebaseAuthentication  
+ - Responsive Authentication page 
 To-Do app
  - Create To-Do
  - Edit To-Do
@@ -31,15 +32,21 @@ Features
  - Animation builder when new task is created on simultaneous device
  - Using firestore realtime services
  - Include simple notification (for Android only)
- - popup notification when using different devices 
+ - Popup notification when using different devices 
     for making changes and delete To-Do items
  - Simple Profile page
  - Include StreamSubscription to listen for changes and notified.    
 
 Simple validations:
+To-Do
 - Title must not be empty
 - Start date must be smaller than or equal to end date
 - End Date must be larger than or equal to start date
+
+Auth
+- Email must be valid (Regex pattern)
+- Username and password must not be empty
+- Login will be using username and password
  
 
 
@@ -67,17 +74,13 @@ Simple validations:
 ```bash
 flutter test   
 ```
-## Continuous Integration
-- A simple CI/CD was setup with [CodeMagic](https://codemagic.io). New build will be triggered by every new push to main branch for this repository. 
-![codemagic](https://user-images.githubusercontent.com/76787324/204745635-39feb15a-03b4-4dd8-9797-e1d240d373d5.png)
-![cic](https://user-images.githubusercontent.com/76787324/204739065-321debef-73af-4d76-81de-2e331ad02c93.png)
 
 
 
 ## Setup Project
 - Clone repository
 ```bash
-git clone https://github.com/weeyc/to-do-list.git  
+git clone https://github.com/emirfikri/etiqatest.git
 ```
 
 - To run the app, simply write
@@ -85,7 +88,7 @@ git clone https://github.com/weeyc/to-do-list.git
 flutter pub get  
 ```
 ```bash
-flutter run 
+flutter run (Tested working on Android / IOS / Web) (emulator only)
 ```
 # etiqa
 
