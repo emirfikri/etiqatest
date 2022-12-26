@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>836283907558-t48otea0eg3k57r91nm3onqvhm2fs29o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.836283907558-t48otea0eg3k57r91nm3onqvhm2fs29o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDltg9CQr6s6JIO-GgBXI96RTgPNc0Bsr4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>836283907558</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.emirfikri.etiqa</string>
+	<key>PROJECT_ID</key>
+	<string>etiqa-a69c4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>etiqa-a69c4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:836283907558:ios:826d3d311058d2351d6a27</string>
+</dict>
+</plist>
